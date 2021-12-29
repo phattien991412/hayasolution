@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: noto-Regular;
+  src: url(./fonts/Noto_Sans_JP/NotoSansJP-Regular.otf);
+}
+
+
+
+body {
+  font-family: noto-Regular;
+}
+.header {
+  text-align: center;
+  color: #f4a300;
+  font-size: 32px;
+  margin-top: 16px;
+  letter-spacing: 1px;
+}
+
+.info {
+  margin: 16px 260px 0;
+  text-align: center;
+}
+
+.info p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.wrap-text {
+  margin-bottom: 28px;
+}
+
+.text-highlight {
+  color: #f4a300;
+  
+}
+
+.banner {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.banner img {
+  width: 80%;
+}
+
+.banner-desc p {
+  font-size: 14px;
+  color: #1a1a1a;
+  text-align: center;
+  padding: 10px 0 5px;
+}
+
+.banner-desc a {
+  color: #87c22c;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #fdf1d9;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.footer-content {
+  padding: 24px 0 32px
+}
+
+.footer-info {
+  margin-bottom: 30px;
+}
+
+.footer-info h3 {
+  color: #f4a300;
+  font-size: 14px;
+}
+
+.footer-info p {
+  font-size: 16px;
+}
+
+.footer-contact a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contact-phone {
+  color: #000;
+}
+
+.contact-phone:hover {
+  color: #87c22c;
+}
+
+.contact-email {
+  color: #87c22c;
+}
+@media screen and (max-width: 1280px) {
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .info {
+    margin: 16px 24px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .banner img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) { }
+
+@media screen and (max-width: 576px) {
+  .header h1 {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .info {
+    margin: 16px 12px 0;
+    
+  }
+
+  .info p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .banner-desc p {
+    font-size: 12px;
+  }
+
+  .banner-desc .desc-text {
+    margin: 0 65px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .footer-info h3 {
+    font-size: 12px;
+  }
+
+  .footer-contact a {
+    font-size: 12px;
+  }
+}
