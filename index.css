@@ -30,7 +30,7 @@ body {
   letter-spacing: 1px;
 }
 
-.wrap-text {
+.wrap-text-up {
   margin-bottom: 28px;
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 .footer-info {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-info h3 {
@@ -86,7 +86,6 @@ body {
 .footer-info p {
   font-size: 18px;
   font-weight: 500;
-  letter-spacing: 1px;
 }
 
 .footer-contact a {
@@ -114,8 +113,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .info {
-    margin: 16px 24px;
+  .wrap-text-down {
+    margin: 0 10px;
+  }
+  .break-text {
+    display: none;
   }
 }
 
@@ -131,15 +133,20 @@ body {
   .info p {
     font-size: 12px;
     font-weight: 500;
-    letter-spacing: -.5px;
+    letter-spacing: -0.5px;
+  }
+
+  .wrap-text-down {
+    margin: 0;
   }
 
   .banner-desc p {
     font-size: 12px;
+   
   }
 
-  .banner-desc .desc-text {
-    margin: 0 65px;
+  .break-text {
+    display: block;
   }
 
   .footer p {
@@ -159,3 +166,21 @@ body {
     font-size: 12px;
   }
 }
+/* 
+@media screen and (max-width: 480px) {
+  .info {
+    margin: 16px 12px 0;
+  }
+
+  .desc-text {
+    margin: 0 40px 0 48px;
+  }
+
+  .wrap-text-up {
+    margin: 0 ;
+  }
+
+  .wrap-text-down {
+    margin: 0 ;
+  }
+} */
